@@ -1,0 +1,3 @@
+CLIENT_ID=0oa7v2cvsr3YGLTac357
+ISSUER=https://evgptraining.okta.com/oauth2/default
+OKTA_TESTING_DISABLEHTTPSCHECK=true
