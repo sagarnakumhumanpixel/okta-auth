@@ -10,8 +10,8 @@ export class OktaGuard implements CanActivate, OnModuleInit {
 
   onModuleInit() {
     this.oktaJwtVerifier = new OktaJwtVerifier({
-      issuer: 'https://dev-68779385.okta.com/oauth2/default',
-      clientId: '0oa1g0nu22CTjdz285d7',
+      issuer: 'https://evgptraining.okta.com/oauth2/default',
+      clientId: '0oa7v2cvsr3YGLTac357',
       assertClaims: {
         'aud': ['api://default']
       }
